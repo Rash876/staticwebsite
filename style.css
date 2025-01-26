@@ -1,1 +1,6 @@
-body { border-style: dotted ; border-width: 3px ; }
+body { border-style: dotted ; border-width: 3px ; } /* creating border for main body of text to be dotted or broken */
+
+a:link { color : green ; text-decoration: underline;} /*when a link is unclicked*/
+a:visited {color : purple ; text-decoration: none;} /*when a link is already clicked*/
+a:hover {color : blue ; text-decoration: none;} /*when a link is being pointed on or hovered over by the cursor*/
+a:active {color : red; text-decoration: none} /*when link is clicked*/
