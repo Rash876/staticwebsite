@@ -1,5 +1,4 @@
-body { border-color: purple ; border-style: dotted ; border-width: 3px ; } /* creating border for main body of text to be dotted or broken */
-div {margin : auto;}
+div {margin : auto; height : 250px; width: 100px; border-color: purple ; border-style: dotted ; border-width: 3px ; font-family: "Lucida Console", "Courier New", monospace;} /* adds stylised border, specific font and modifies element dimensions */
 
 a:link { color : green ; text-decoration: underline;} /*when a link is unclicked*/
 a:visited {color : purple ; text-decoration: none;} /*when a link is already clicked*/
